@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+    display: flex;
+    background-color: #FFF;
+    flex-direction: row;
+    height: 100vh; 
+}
+
+.usuario, .boton, .chat{
+    border: 1px solid #E8EBE4;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.contactos{
+    width: 400px;
+    font-size: small;
+}
+
+.contactos img{
+    border-radius: 50%;
+    height: 50px;
+}
+
+.boton{
+    padding: 30px;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #A491D2;
+    color: white;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.centro{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img img {
+    width: 50%;
+}
+.card-text {
+    margin-top: 10px;
+}
+
+.card-text2{
+    font-size: me;
+    margin-top: 10px;
+
+}
