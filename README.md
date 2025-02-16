@@ -1,6 +1,6 @@
 # Proyecto "Maqueta de Sistema de Mensajería"
 
-Ejercicoo se debe realizar solo utilizando contenedores Flex
+Ejercicio se debe realizar SOLO utilizando contenedores Flex
 
 ## Tarea para Desafio Latam
 

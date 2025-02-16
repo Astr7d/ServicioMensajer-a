@@ -7,27 +7,42 @@ body{
     height: 100vh; 
 }
 
-.usuario, .boton, .chat{
+.usuario, .chat{
     border: 1px solid #E8EBE4;
     display: flex;
-    justify-content:space-around;
+    justify-content:flex-start;
     align-items: center;
     padding: 5px;
 }
 
+.boton{
+    border: 1px solid #E8EBE4;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+}
+
+.uno{
+    justify-content: space-between;
+}
+
 .contactos{
-    width: 400px;
+    width: 350px;
     font-size: small;
 }
 
 .contactos img{
     border-radius: 50%;
     height: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .boton{
     padding: 30px;
 }
+
 .button-box{
     display: flex;
     justify-content: center;
@@ -35,7 +50,7 @@ body{
     background-color: #A491D2;
     color: white;
     border: 0;
-    margin-bottom: 10px;
+    font-size: medium;
 }
 
 .centro{
@@ -57,12 +72,10 @@ body{
 .card-img img {
     width: 50%;
 }
-.card-text {
+.card-text, .card-text2 {
     margin-top: 10px;
 }
 
-.card-text2{
-    font-size: me;
-    margin-top: 10px;
-
+.card-text{
+    font-size: 44px;
 }
